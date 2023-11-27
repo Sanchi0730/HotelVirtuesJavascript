@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="explore.css">
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=Lora:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf74b47575.js" crossorigin="anonymous"></script>
+    <title>Explore</title>
+</head>
+<body class="mybody">
+    <div id="preloader">
+        <div id="plcircle"></div>
+        <div id="plcircle2"></div>
+        <!-- <img src="images/loadingsparkle.jpg" alt="" id="preloaderimage"> -->
+    </div>
+    <section id="layers">
+        <div id="layers-container">
+            <div id="layerbackground"></div>
+            <div id="layerside"></div>
+            <div id="layerside2"></div>
+            <div id="layerforeground"></div>
+            <div id="layertext">
+                <div id="layertext2">Explore</div>
+                <div id="layertext3">Have a great time exploring 
+                <br>with realistic experience</div>
+                <div id="layertext4">Move your mouse towards the 
+                    extreme ends to continue.
+                </div>
+            </div>
+            <div id="layerrain"></div>
+            
+        </div>
+    </section>
+    <script src="explorejs.js"></script>
+
+    <div class="position1">
+        <div class="filter1">
+            <div id="ExCoH"><a href="index.html"><img src="images/hv.png" alt=""  height="100%" width="auto"></a></div>
+            <div id="ExCoT">
+                <div id="ExCoT2"><a href="explore.html" id="ExCoT21">Home</a></div>
+                <div id="ExCoT2">
+                    <a id="ExCoT21">Cities</a>
+                    <div id="cities">
+                        <div id="cities1">
+                            <span style="color: rgba(190, 184, 184, 0.89);">America</span>
+                            <br>Austin
+                            <br>San Francisco
+                            <br>New York
+                            <br>Chicago
+                            <br>Seattle
+                            <br>Los Angeles
+                            <br>New Orleans
+                            <br>Philadelphia
+                            <br>Las Vegas
+                        </div>
+                        <div id="cities1" style="padding-top: 30px;">
+                            <span style="color: rgba(190, 184, 184, 0.89);">Europe</span>
+                            <br>Paris
+                            <br>Madris
+                            <br>Rome
+                            <br>Barcelona
+                            <br>London
+                            <br>Berlin
+                            <br>Florence
+                        </div>
+                        <div id="cities1">
+                            <span style="color: rgba(190, 184, 184, 0.89);">Australia</span>
+                            <br>Sydney
+                            <br>Melbourne
+                            <br>Brisbane
+                            <br>Adelaide
+                            <br>
+                            <br><span style="color: rgba(190, 184, 184, 0.89);">Asia</span>
+                            <br>Bangkok
+                            <br>Mumbai
+                            <br>Tokyo
+                        </div>
+                    </div>
+                </div>
+                <div id="ExCoT2">
+                    <a id="ExCoT21">Category
+                        <div id="category">
+                            <div id="category1">
+                                <br>Business
+                                <br>Hotel
+                                <br>Resort
+                                <br>Cottage
+                                <br>Suite
+                                <br>Motel
+                            </div>
+                            <div id="category1">
+                                <br>Boutique Hotel
+                                <br>Casino Hotel
+                                <br>Eco Hotel
+                                <br>Farm Stary
+                                <br>Guest House
+                                
+                            </div>
+                            <div id="category1">
+                                <br>Roadhouse
+                                <br>Hostel
+                            </div>
+                        </div>
+                    </a></div>
+                <div id="ExCoT2"><a href="explore.html" id="ExCoT21">Amendments</a></div>
+                <div id="ExCoT2"><a href="explore.html" id="ExCoT21">Cancel</a></div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="ExploreCover">
+        <div id="filter">
+            <div id="empty"></div>
+            <div id="ExCoC">
+                <div id="ExCoCH">
+                    <div id="ExCoCH2">Explore</div>
+                    <img src="images/divider.png" alt="" height="50px">
+                </div>
+                <div id="ExCoCC"> for the most beautiful stay <br>with the most convenient booking options!</div>
+            </div>
+
+            <div id="CheckBar">
+                <div id="CheckBar2">
+                    <div id="CheckBar22"><label for="CheckIn">Check In Date</label></div>
+                    <div id="CheckBar23"><input type="date" name="CheckIn"></div>
+                </div>
+                <div id="CheckBar2">
+                    <div id="CheckBar22"><label for="CheckIn">Check Out Date</label></div>
+                    <div id="CheckBar23"><input type="date" name="CheckIn"></div>
+                </div>
+                <div id="CheckBar3">
+                    <div id="CheckBar31"><i class="fa-regular fa-user" style="color: white;"></i>
+                    <input type="text" placeholder="0"></div>
+                    <div id="CheckBar31"><i class="fa-solid fa-child fa-lg" style="color: white; height: 15px;"></i><input type="text" placeholder="0"></div>
+                </div>
+                <div id="CheckBar4">
+                    <button><div style="display:flex; justify-content:center;align-items: center; height:100%; width: 100%; backdrop-filter: blur(0.5px);">Check Availability</div></button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    
+    <!-- <div id="empty"></div> -->
+    <div class="SelectionBar">
+        <div id="Selection">
+            <div id="Selection1"><label for="Location">Location</label></div>
+            <div id="Selection2"><select name="Location">
+                <option value="Choose">Choose</option>
+                <option value="Belguim">Belguim</option>
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Las Vegas">Las Vegas</option>
+                <option value="Seattle">Seattle</option>
+                <option value="San Fransico">San Francisco</option>
+                <option value="New Orleans">New Orleans</option>
+                <option value="Philadelphia">Philadelphia</option>
+                <option value="Austin">Austin</option>
+                <option value="Paris">Paris</option>
+            </select></div>
+        </div>
+        <div id="Selection">
+            <div id="Selection1"><label for="Location">Category</label></div>
+            <div id="Selection2"><select name="Location">
+                <option value="Choose">Choose</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Resort">Resort</option>
+                <option value="Cottage">Cottage</option>
+                <option value="Motel">Motel</option>
+                <option value="Suite">Suite</option>
+                <option value="Boutique Hotel">Boutique Hotel</option>
+                <option value="Inn">Inn</option>
+                <option value="Casino Hotel">Casino Hotel</option>
+                <option value="Eco Hotel">Eco Hotel</option>
+                <option value="Farm Stay">Farm Stary</option>
+                <option value="Guest House">Guest House</option>
+                <option value="Convention Center">Convention Center</option>
+                <option value="Roadhouse">Roadhouse</option>
+                <option value="Hostel">Hostel</option>
+            </select></div>
+        </div>
+        <div id="Selection">
+            <div id="Selection1"><label for="Location">Type</label></div>
+            <div id="Selection2"><select name="Location">
+                <option value="Choose">Choose</option>
+                <option value="Business">Business</option>
+                <option value="Holiday">Holiday</option>
+                <option value="Anniversary">Anniversary</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Family Outing">Family Outing</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Group Holiday">Group Holiday</option>
+                <option value="Student Outing">Student Outing</option>
+            </select></div>
+        </div>
+        <div id="Selection">
+            <div id="Selection1"><label for="Location">Season</label></div>
+            <div id="Selection2"><select name="Location">
+                <option value="Choose">Choose</option>
+                <option value="Winter">Winter</option>
+                <option value="Summer">Summer</option>
+                <option value="Autumn">Autumn</option>
+                <option value="Spring">Spring</option>
+                <option value="Monsoon">Monsoon</option>
+                <option value="Upcoming-Winter">Upcoming-Winter</option>
+                <option value="Upcoming-Summer">Upcoming-Summer</option>
+            </select></div>
+        </div>
+        <div id="Selection">
+            <div id="Selection1"><label for="Location">Mood</label></div>
+            <div id="Selection2"><select name="Location">
+                <option value="Choose">Choose</option>
+                <option value="Happy">Happy</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Gloomy">Gloomy</option>
+                <option value="Bored">Bored</option>
+                <option value="Anxious">Anxious</option>
+                <option value="Frustrated">Frustrated</option>
+                <option value="Peaceful">Peaceful</option>
+                <option value="Leisure">Leisure</option>
+            </select></div>
+        </div>
+    </div>
+    <div class="Filter">
+        <div id="Filter2">
+            <div id="Filter1">
+                <a href="">Filter</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Hotels">
+        <div id="HotelH"><img src="images/beforeicon.png" alt="" height="10px" style="padding-top:40px;padding-left:20px; padding-right: 20px;">Explore All Around the World <img src="images/beforeicon.png" alt="" height="10px" style="padding-top:40px;padding-left:20px;"></div>
+    <div id="Hotels1" style="padding-top: 50px;">
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel12.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">The New View</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">New York</div>
+                </div>
+            </div>
+        </div>
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel2.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">Hotel Multi-Cuisine Inn</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">Los Angeles</div>
+                </div>
+            </div>
+        </div>
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel14.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">Soothing Waters</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">Chicago</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  id="Hotels1">
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel11.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">Aria Hotel</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">Las Vegas</div>
+                </div>
+            </div>
+        </div>
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel8.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">The Blue Sea</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">Philadelphia</div>
+                </div>
+            </div>
+        </div>
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel16.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">The Pacific Stream</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">Austin</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  id="Hotels1">
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel15.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">Seasight Arena</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">Seattle</div>
+                </div>
+            </div>
+        </div>
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel10.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">Euphoria</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">San Francisco</div>
+                </div>
+            </div>
+        </div>
+        <div id="HotelBox">
+            <div id="HotelBox1">
+                <div id="HotelBox11"><img src="images/Hotel13.jpg" alt="" style="object-fit: cover;">
+                </div>
+                <div id="filter2"></div>
+                <div id="BookNow"><a href="book.html">Book Now</a></div>
+                <div id="HotelBox12">
+                    <div style="display:flex; justify-content: right; font-size: 20px; font-style:italic; padding-top:5px; width: 100%;">Ineffable</div>
+                    <div style="display:flex; justify-content: right; font-size: 14px; font-style:normal;padding-top:5px; width: 100%;">New Orleans</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="Filter">
+            <div id="Filter2">
+                <div id="Filter1">
+                    <a href="">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div id="empty"> </div>
+   
+    <!-- ___________________________________________________________________________________________ -->
+    
+    <div class="footer">
+        <div class="footerC">
+            <div class="footerC2">
+                <div>Bookings</div><div><hr class="verticalruler"></div>
+                <div><ul class="footerlist">
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="explore.html">Amendments</a></li>
+                <li><a href="explore.html">Status</a></li>
+                <li><a href="explore.html">Check OUT</a></li>
+                <li><a href="explore.html">Cancellation</a></li>
+                <li><a href="explore.html">Trips</a></li>
+                <li><a href="explore.html">Sign-In</a></li></ul></div>
+            </div>
+            <div class="footerC2">
+                <div>Admin</div><div><hr class="verticalruler"></div>
+                <div><ul class="footerlist">
+                <li><a href="explore.html">Register</a></li>
+                <li><a href="explore.html">Log-in</a></li>
+                <li><a href="explore.html">Book </a></li>
+                <li><a href="explore.html">Cancel</a></li>
+                <li><a href="explore.html">Amendments</a></li>
+                <li><a href="explore.html">Beautify</a></li></ul></div>
+            </div>
+            
+        </div>
+        <div class="footerH">
+            <div>
+            <div><img src="images/symbol2.png" alt="Symbol" height="380px"></div>
+            <div id="HotelVirtues">Hotel Virtues</div>
+            </div>
+        </div>
+        <div class="footerC">
+            <div class="footerC2">
+                <div><ul class="footerlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#About_Us">About Us</a></li>
+                    <li><a href="index.html#Customer_Exp">Customer Experience </a></li>
+                    
+                    </ul></div>
+                    <div><hr class="verticalruler"></div><div>About</div>
+            </div>
+            <div class="footerC2">
+                
+                <div><ul class="footerlist">
+                <li><div ><div><a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></div>
+                         <div><a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></div>
+                         <div><a href=""><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a></div></div></li>
+                </li></ul></div>
+                <div><hr class="verticalruler"></div><div>Contact</div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer2"><span>+91 6746 8272 84 </span><span>Wellenhouse Apartments, Banglore</span> </div>
+    
+    
+
+    
+
+    
+</body>
+</html>
